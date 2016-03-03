@@ -24,7 +24,7 @@ be backwards compatible.
 Add the following to your `config/environments/production.rb`:
 
 ```ruby
-Rails.application.configure do |config|
+Rails.application.config do |config|
   # ...
   config.opbeat.organization_id = 'XXX'
   config.opbeat.app_id = 'XXX'
